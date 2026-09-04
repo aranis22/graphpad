@@ -2,17 +2,17 @@
 
 **A low-cost, touchscreen graphing calculator for accessible mathematics education.**
 
-GraphPad asks a simple question: how can we bring advanced mathematics tools—graphing, functions, plotting, tables, and eventually symbolic mathematics—to students who may not have access to traditional graphing calculators?
+GraphPad explores a central question: how can advanced mathematics tools, including graphing, functions, plotting, tables, and eventually symbolic mathematics, reach students who may not have access to traditional graphing calculators?
 
 Devices such as the TI-84 and comparable Casio calculators are common in mathematics education, but their cost can be significant for students and under-resourced schools. GraphPad explores a lower-cost alternative built around an ESP32-based embedded platform and a touchscreen interface.
 
-> GraphPad is an early prototype and work in progress. It is an exploration of accessible embedded mathematics tools, not yet a replacement for mature commercial calculators.
+> GraphPad is an early, work-in-progress prototype. It explores accessible embedded mathematics tools and is not yet intended to replace mature commercial calculators.
 
 <p align="center">
   <img src="docs/media/graphpad.jpg" alt="GraphPad touchscreen graphing calculator prototype" width="800">
 </p>
 
-<p align="center"><em>Current GraphPad prototype showing simultaneous function plotting, an x/y value table, equation input, numerical controls, and a parameter slider for interactively observing how a graph changes.</em></p>
+<p align="center"><em>Current GraphPad prototype showing simultaneous function plots, an x/y value table, equation input, numerical controls, and a parameter slider for observing graph changes interactively.</em></p>
 
 ## Current Features
 
@@ -33,7 +33,7 @@ Devices such as the TI-84 and comparable Casio calculators are common in mathema
 2. GraphPad evaluates points across the selected range.
 3. The function is plotted in the main display area.
 4. Corresponding x/y values appear in the adjacent table.
-5. A slider changes a parameter or value.
+5. The student uses a slider to change a parameter or value.
 6. The graph preview updates so the student can explore how that change affects the function.
 
 The interface is intended to support experimentation with functions, not only calculation of answers.
@@ -60,8 +60,8 @@ flowchart LR
 | Component | Specification |
 | --- | --- |
 | MCU | ESP32-based embedded platform |
-| Display | Color TFT; exact controller and resolution are not yet documented in this repository |
-| Input | Touchscreen; touch technology and controller are not yet documented in this repository |
+| Display | Color TFT; the exact controller and resolution are not yet documented in this repository |
+| Input | Touchscreen; the touch technology and controller are not yet documented in this repository |
 | Interface | Touch-first graphical calculator UI |
 | Firmware | Firmware and build configuration are not yet published in this repository |
 | Power | Portable embedded-device configuration; implementation details are not yet documented |
@@ -82,7 +82,7 @@ flowchart LR
 
 ## Roadmap
 
-Later iterations aim to approach the breadth of tools students expect from common graphing calculators while retaining a low-cost embedded architecture. Potential work includes:
+Later iterations aim to provide more of the tools students expect from common graphing calculators while retaining a low-cost embedded architecture. Potential work includes:
 
 - Improved graph zooming, panning, and table exploration
 - Multiple graph modes and function management
@@ -98,7 +98,7 @@ These items are directions for future development, not current features.
 
 ## Why GraphPad?
 
-GraphPad is partly an engineering project and partly an educational-access experiment. Graphing calculators can be important tools for understanding functions visually, but dedicated devices are not equally accessible to every classroom. GraphPad investigates how much of that experience can be reproduced on inexpensive embedded hardware while using touch interaction to encourage exploration.
+GraphPad combines an engineering project with an educational-access experiment. Graphing calculators can be important tools for understanding functions visually, but dedicated devices are not equally accessible to every classroom. GraphPad investigates how much of that experience can be reproduced on inexpensive embedded hardware while using touch interaction to encourage exploration.
 
 ## Building
 
