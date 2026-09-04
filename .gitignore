@@ -1,0 +1,11 @@
+# Build output
+build/
+.pio/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
