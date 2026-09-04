@@ -1,6 +1,6 @@
-# GraphCalc
+# GraphPad
 
-A lightweight graphing calculator project focused on embedded / low-cost educational computing.
+GraphPad is a lightweight graphing calculator focused on embedded / low-cost educational computing.
 
 ## Status
 
